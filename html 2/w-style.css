@@ -140,6 +140,7 @@ img{
     line-height: 45px;
     margin-top: 300px;     
 }
+
 .block-1,.block-2{
     background-color: rgba(11, 11, 11, 0.69);
     width: 300px;
@@ -192,6 +193,20 @@ span{
     
 
 }
+.next2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.next2 a{
+    font-size: 24px;
+    color: aliceblue;
+    letter-spacing: 2px;
+    
+
+}
 
 
 /* RWD */
@@ -200,7 +215,7 @@ span{
 @media (max-width:2080px)
 {
     .back{
-       width: 75%; }
+       width: 70%; }
 
     .footer{
         background-size: 100%;
@@ -211,7 +226,7 @@ span{
     }
     
     .block-1,.block-2{
-        width:12.5%;}
+        width:15%;}
      
      span{ 
         font-size: 100%;
@@ -251,26 +266,41 @@ span{
         margin: 0 auto;
         margin-bottom: 0px;
         margin-top: 30px;
-        flex-direction: column;
+        
 
        }
-       .content-3{
+    .content-3{
         margin-top: 0px;
         flex-direction: column;    
-       }
-       .content-4{
-        margin-top: 0px;
+    }
+    .content-3{
+        margin: 0 auto;
+        margin-top: 8%;
+        display: flex;
+        justify-content: center;       
+    }
+    .content-4{
+        margin-top: 8%;
         margin-bottom: 0px;
         flex-direction: column;
-       }
+    }
+    .content-5{
+        margin: 0 auto;
+        margin-top: 8%;
+        display: flex;
+        justify-content: center;       
+    }
   
 
     .footer{ 
         max-height: 400px;   
     }
-    .footer p ,.footer p a{
+    .footer p {
         font-size: 80%;
-        
+        line-height: 26px;
+    }
+    .footer p a{
+        font-size: 100%;
         line-height: 26px;
     }
 
@@ -300,6 +330,14 @@ span{
         font-size: 24px;
         
     }
+    .next a{
+        font-size: 20px;
+    }
+
+    .next2 a{
+
+        font-size: 20px;
+    }
 
       
     
@@ -314,24 +352,48 @@ span{
     .content-1{
         max-width: 30%;
         margin: 0 auto;
+        
        
     }
     .content-2{
         margin: 0 auto;
         margin-bottom: 0px;
         margin-top: 20px;
-        flex-direction: column;
+        
 
-       }
+    }
+    .content-3{
+        margin: 0 auto;
+        margin-top: 8%;
+        display: flex;
+        justify-content: center;       
+    }
+    .content-4{
+        margin: 0 auto;
+        margin-top: 8%;
+        display: flex;
+        justify-content: center;       
+    }
+    .content-5{
+        margin: 0 auto;
+        margin-top: 8%;
+        display: flex;
+        justify-content: center;       
+    }
        
      
     .footer{ 
         max-height: 200px;   
     }
-    .footer p ,.footer p a{
+    .footer p {
         font-size: 70%;
         line-height: 26px;
     }
+    .footer p a{
+        font-size: 110%;
+        line-height: 26px;
+    }
+
 
     .block-1,.block-2{
         display: none;
@@ -357,13 +419,20 @@ span{
         font-size: 90%;
         
     }
-    .next a{
-        font-size: 15px;
-    }
+    
     .sub{
         font-size: 20px;
         
     }
+    .next a{
+        font-size: 15px;
+    }
+
+    .next2 a{
+
+        font-size: 15px;
+    }
+
       
     
 }
