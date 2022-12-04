@@ -101,7 +101,7 @@ img{
 }
 
 .content-1 a{
-    background: url(images/scale.png) no-repeat center;
+    background: url(images/01/scale.png) no-repeat center;
     width: 610px;
     height: 464px;
     text-indent: 101%;
@@ -126,7 +126,7 @@ img{
 
 }
 .content-2 a{
-    background: url(images/ugly.png) no-repeat;
+    background: url(images/01/ugly.png) no-repeat;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
@@ -136,7 +136,7 @@ img{
 }
 
 .content-2 p a{
-    background: url(images/puyuma.png) no-repeat;
+    background: url(images/01/puyuma.png) no-repeat;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
@@ -157,7 +157,7 @@ img{
 }    
 
 .content-3 a{
-    background: url(images/silence.png) no-repeat;
+    background: url(images/01/silence.png) no-repeat;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
@@ -166,7 +166,7 @@ img{
     display: block;   
 }
 .content-3 p a{
-    background: url(images/sports.png) no-repeat;
+    background: url(images/01/sports.png) no-repeat;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
@@ -186,7 +186,7 @@ img{
 }
 
 .content-4 a{
-    background: url(images/68.png) no-repeat ;
+    background: url(images/01/68.png) no-repeat ;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
@@ -196,7 +196,7 @@ img{
 }
 
 .content-4 p a{
-    background: url(images/wave.png) no-repeat;
+    background: url(images/01/wave.png) no-repeat;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
@@ -286,6 +286,15 @@ span{
         width:466px;
         height:650px;
         /* 75% */  }
+
+    .home{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-top: 130px;
+        
+    }
+
     .footer{
         background-size: 100%;
         width:1110;
@@ -310,7 +319,16 @@ span{
         line-height: 40px;
         font-size: 100%;}    
      span{ 
-        font-size: 100%;}
+        font-size: 100%;
+    }
+    .home a{
+        font-size: 24px;
+        color: aliceblue;
+        letter-spacing: 2px;
+        
+        
+    
+    }
     
 }
 
