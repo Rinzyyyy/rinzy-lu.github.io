@@ -167,6 +167,14 @@ img{
     font-size: medium;
     color: aliceblue;
 }
+.content-2-34{
+    margin: 0 auto;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    
+}
 
 
 .content-3{
@@ -338,6 +346,7 @@ span{
     .content2-clo span{
         color: rgb(103, 202, 232);
     }
+   
  
     
 }
@@ -494,6 +503,44 @@ span{
         display: flex;
         justify-content: center;       
     }
+    .content-clo a{
+    background: url(images/04/clo-1.gif) no-repeat;
+    background-size: 100%;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 135px;
+    height: 234.5px;
+    display: block;
+}
+
+
+ .content-clo p a{
+    background: url(images/04/clo-6.gif) no-repeat;
+    background-size: 100%;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 135px;
+    height: 234.5px;
+    display: block;
+   
+}
+
+.content-34 iframe{
+    max-width: 450px;
+    max-height: 300px;
+
+}
+
+.content-2-34 img{
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    max-width: 210px;
+    
+}
        
      
     .footer{ 
@@ -548,26 +595,25 @@ span{
 
         font-size: 15px;
     }
+
     .content2-clo{
         display: flex;
         justify-content: space-between;
         margin-top: -70px;
-        margin-bottom: 300px;
+        margin-bottom: 200px;
         font-size: 30px;
         line-height: 20px;
-        margin-right: 99px;
-        margin-left: 88px;
               
     }
     .content2-clo a{
         color: rgb(148, 151, 154);
-        font-size: medium;
+        font-size: small;
         
     }
     
     .content2-clo span{
         color: rgb(103, 202, 232);
-        font-size: medium;
+        font-size: small;
     }
 
       
