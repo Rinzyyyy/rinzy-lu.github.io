@@ -469,7 +469,7 @@ span{
       
     
 }
-@media (max-width:950px)
+@media (max-width:660px)
 {
     
     .back{
@@ -557,11 +557,11 @@ span{
 }
 
 .content-2-34-1{
-    max-width: 440px;
+    max-width: 290px;
     
 }
 .content-2-34 img{
-    max-width: 220px;
+    max-width: 160px;
     
 }
 .game-prem-img{
