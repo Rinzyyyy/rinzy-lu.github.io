@@ -528,8 +528,8 @@ span{
 }
 
 .content-34 iframe{
-    max-width: 450px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 250px;
 
 }
 
@@ -538,7 +538,7 @@ span{
     margin-top: 2%;
     display: flex;
     justify-content: center;
-    max-width: 210px;
+    max-width: 200px;
     
 }
        
