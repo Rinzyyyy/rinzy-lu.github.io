@@ -152,7 +152,10 @@ img{
     padding-bottom: 2%;
     
 }
-
+.content-34{
+    display: flex;
+    justify-content: center;
+}
 
 .content-34.p{
     font-size: medium;
@@ -160,7 +163,7 @@ img{
 }
 .content-2-34{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     margin-bottom: 5%;   
 }
 
@@ -334,8 +337,6 @@ span{
     .content2-clo span{
         color: rgb(103, 202, 232);
     }
-   
- 
     
 }
 
@@ -457,11 +458,13 @@ span{
         justify-content: center;
     }
     
-    .content-34 iframe{
+    
+    .content-2 iframe{
         max-width: 800px;
         max-height: 480px;
     
     }
+
 
       
     
@@ -504,6 +507,9 @@ span{
         display: flex;
         justify-content: center;       
     }
+    .content-clo{
+        margin-bottom: 20px;
+    }
     .content-clo a{
     background: url(images/04/clo-1.gif) no-repeat;
     background-size: 100%;
@@ -534,22 +540,34 @@ span{
 }
 
 .content-34 iframe{
-    max-width: 500px;
-    max-height: 300px;
+    max-width: 600px;
+    max-height: 400px;
+}
+.content-2 iframe{
+    max-width: 600px;
+    max-height: 400px;
 }
 
 .content-2-34 {
     display: flex;
     justify-content:center;
-    max-width: 800px;
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
+.content-2-34-1{
+    max-width: 440px;
+    
+}
 .content-2-34 img{
     max-width: 220px;
     
 }
-       
-     
+.game-prem-img{
+    max-width: 450px;
+}
+         
     .footer{ 
         max-height: 250px;   
     }
@@ -603,7 +621,7 @@ span{
 
     .content2-clo{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-betweence;
         margin-top: -70px;
         margin-bottom: 200px;
         font-size: 30px;

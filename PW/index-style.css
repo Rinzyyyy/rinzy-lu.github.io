@@ -513,6 +513,10 @@ span{
         
     }
 
+    .home a{
+        font-size: 17px;
+    }
+
     .block-1,.block-2{
         display: none;}
     .m-word{
